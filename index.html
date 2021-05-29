@@ -57,9 +57,24 @@
         <div class="formula-bar"></div>
         <div class="data-container">
             <div class="select-all"></div>
-            <div class="column-name-container"></div>
-            <div class="row-name-container"></div>
-            <div class="input-cell-container"></div>
+            <div class="column-name-container">
+                <div class="column-name" id="colCod-A colid-1">A</div>
+                <div class="column-name" id="colCod-B colid-2">B</div>
+            </div>
+            <div class="row-name-container">
+                <div class="row-name" id="colCod-B colid-2">1</div>
+                <div class="row-name" id="colCod-B colid-2">2</div>
+            </div>
+            <div class="input-cell-container">
+                <div class="cell-row">
+                    <div class="input-cell" contenteditable="true"></div>
+                    <div class="input-cell" contenteditable="true"></div>
+                </div>
+                <div class="cell-row">
+                    <div class="input-cell" contenteditable="true"></div>
+                    <div class="input-cell" contenteditable="true"></div>
+                </div>
+            </div>
         </div>
         <div class="sheet-bar">
             <div class="scroller">
@@ -73,5 +88,7 @@
             </div>
         </div>      
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

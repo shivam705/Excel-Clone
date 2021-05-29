@@ -104,12 +104,14 @@ body{
     width: calc(100vw - 30px);
     height: 30px;
     border:1px solid lightgray;
+    display: flex;
 }
 
 .row-name-container{
     width: 30px;
     height: calc(75vh - 30px);
     border:1px solid lightgray;
+    
 }
 
 .input-cell-container{
@@ -165,4 +167,32 @@ body{
 
 .sheet-tab:hover{
     cursor: default;
+}
+
+.column-name{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    font-weight: bold;
+}
+
+.row-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+.cell-row{
+    display: flex;
+}
+
+.input-cell{
+    width: 100px;
+    height: 25px;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
